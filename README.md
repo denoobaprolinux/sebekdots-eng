@@ -1,8 +1,4 @@
-[
-  ![Donate with PayPal]
-  (https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png)
-]
-(https://paypal.me/hyprsebek?country.x=TT&locale.x=en_US)
+[(https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png)](https://paypal.me/hyprsebek?country.x=TT&locale.x=en_US)
 
 # Sebekdots 3.6-RC1
 
