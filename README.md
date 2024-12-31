@@ -1,74 +1,57 @@
-# Sebekdots 3.5.1 Hyprland Edition
+# Sebekdots 3.6-RC1
 
 ![Hyprland_2024-10-04_22 37 04](https://github.com/user-attachments/assets/e4a9b4e6-5977-4d52-8d97-0a269abfb666)
-_Nuevo Tema "Powerlink"_
+_"Powerlink" theme_
 
-![Hyprland_2024-10-05_20 53 50](https://github.com/user-attachments/assets/62cf2641-f4e9-43cb-a4d0-bffd28d6ea03)
-_Nuevo Tema "Powermix" y lista completa de temas para Waybar_
+![Hyprland_2024-12-31_00 52 22](https://github.com/user-attachments/assets/161ea7b7-769d-4344-a67c-7ab34afac314)
+_"Powermix" theme and Waybar Theme Selector_
 
-[demo1.webm](https://github.com/user-attachments/assets/dcb778a6-06b4-44c8-92b6-f2d66c413887)
-_Menú de Configuraciones de Hyprland y Comportamiento de Ventanas Agrupadas_
+![Hyprland_2024-12-29_02 49 10](https://github.com/user-attachments/assets/49945283-a1c0-4b19-899f-de502be1b0bb)
+_Audio widget_
 
-[demo2.webm](https://github.com/user-attachments/assets/010e4e65-e4f2-488a-bc21-66ab596f6635)
-_Algunos temas de Sebekdots 3.5 y tema de menú de Aplicaciones_
 
-Demo completo [en este enlace](https://www.youtube.com/watch?v=K7w-nsaZU3w)
+## Sebekdots, now available in English!
 
-## ¡Nueva edición de Sebekdots para Hyprland!
+Because it was requested, now I can present to you all my latest work, including an audio widget embedded in Waybar, but made in Eww. I want to keep my setup as functional and lightweight as possible, but without sacrificing its looks.
 
-Actualizaciones acumulativas a mis dotfiles, con la siguiente lista de cambios:
+**Features:**
 
-1. Las ventanas pueden moverse con el teclado
-2. Mejorada la característica de las pestañas, ahora las barras de pestañas activas son indicadores luminosos, y participan del esquema de colores del sistema
-3. Ahora se puede agregar una ventana a un grupo de pestañas sólo arrastrando la ventana al grupo de pestañas, pero también puede hacerse con keybindings **(Control + Súper + flechas del teclado)**
-4. Añadida la característica "volver a espacio de trabajo anterior" con **Alt + Tab** 
-5. Las barras ahora participan del efecto Blur: si tienes una barra con transparencia o traslucidez, y activas el efecto Blur en las opciones de Hyprland, la barra también se difumina. Eso ofrece un look and feel adicional a las barras (de manera involuntaria se han creado nuevos temas con esa característica)
-6. Eliminada la barra vertical de la actualización anterior: estaba muy descuidada y tosca. En su lugar, se han agregado dos barras verticales, "Degradado" y "Mínima", ambas a la izquierda.
-7. Selección aleatoria de wallpapers con **Súper + W.**
-8. El script de selección de wallpapers ha sido mejorado para admitir wallpapers animados. Esta mejora viene desde la versión anterior.
-9. Todos los temas clásicos han sido retirados. Sólo se conserva un tema clásico, pero ha sido cambiado/reimaginado. Asimismo, los temas "Mínima" han sido mejorados, lo mismo que los temas "Powerline".
-10. Han sido agregados nuevos temas: **"Powermix", "Powerlink", "Degradado", "Revealer", y "Transparente" (este último en variantes claro/oscuro)** 
-11. Ahora hay un archivo en las configuraciones de Hyprland llamado custom.conf para que puedan poner allí sus configuraciones personales. En la actualización, el archivo va vacío (Sólo con unas instrucciones)
-12. Mejorado el script de actualizaciones: detecta si en el sistema están instalados Yay, Flatpak y Snap (Yay sí o sí debe estar instalado para que funcionen los dotfiles) y pide confirmación en cada paso, puedes elegir no actualizar elementos por separado. También, el script envía notificaciones con relación a lo que hace, bien sea la cancelación del proceso por el usuario, o la actualización de los elementos.
-13. El módulo de actualizaciones en Waybar se reinicia inmediatamente se termina de ejecutar, de tal manera que vuelve a cero tan pronto se acaba la ejecución del script.
-14. Las barras ahora pueden aparecer y desaparecer de la pantalla para permitir una experiencia de pantalla completa. Sólo presiona **Súper + B** y activas/desactivas la barra.
-15. Presionando **Súper + A**, aparece una ayuda en pantalla con todos los keybindings (este archivo fue mejorado con respecto al demo)
-16. Agregado un efecto "minimizar" con **Súper + S**, que involucra el espacio de trabajo especial: no vas a ver las ventanas allí, sólo se van a almacenar, y aparecen nuevamente en donde desees. Sólo se puede hacer con una sola ventana.
-17. He incluido en este repositorio todas las fuentes necesarias, de tal manera que ya no necesitas descargarlas. Solamente con clonar el repositorio y seguir los pasos de la Wiki, podrás hacer la instalación.
-18. Si presionas los dos botones de shift al mismo tiempo, cambiarás la distribución del teclado a inglés de Estados Unidos (útil para los que tengan computadoras con distribución del teclado en inglés), y cada barra tiene un indicador del idioma elegido al lado del centro de notificaciones (ESP/ENG). Por defecto, la primera distribución es español latinoamericano.
-19. Actualización 3.5.1: Nuevo botón en todas las barras, **portapapeles**. Es el front-end de Cliphist, así que ahora tienes acceso a un portapapeles funcional.
+1. Windows can now be moved with the keyboard.
 
-**Próximamente, pondré a disposición de la comunidad un programa para instalar/actualizar los dotfiles.**
+2. Tab functionality improved, now active tab bars are light indicators and participate in the system color scheme.
 
-## Importante, MUY importante
+3. A window can now be added to a tab group by simply dragging it to the tab group, but it can also be done with keybindings (Control + Super + arrow keys).
 
-*YA NO NECESITAS USAR HYPRLAND-GIT*
+4. Bars participate in the Blur effect: if you have a bar with transparency or translucency, and enable the Blur effect in Hyprland's options, the bar also becomes blurred. This gives an additional look and feel to the bars (new themes with this feature have been unintentionally created).
 
-Desde Sebekdots 3.2 los dotfiles usan hyprexpo, y si no lo instalas, va a salir una tira roja con un mensaje de error que no desaparecerá hasta que edites hyprland.conf. Si no quieres usar hyprexpo (o ningún otro plugin), basta con que elimines o comentes la línea 20 del código de hyprland.conf:
+5. Two vertical bars, "Gradient" and "Minimal," have been added, both on the left.
 
-`exec-once = hyprpm reload`
+6. Wallpaper selection now it's possible using Waypaper as a front-end, and Hyprpaper configuration is included in this repository. Also, random wallpaper selection can be done with Super + W. Waypaper supports animated wallpapers if you select swww as wallpaper engine.
+ 
+7. Available themes: Powerlink, Powermix, Gradient, Revealers, Minimal, Transparent/Clear and Classic (I started this project with this last one), and by pressing Super + Shift + B or pressing the switch icon in the bar you can select whether if you want them up, down or left (this one as detailed in point 5) Transparent/Clear bars are available in light/dark variants, so you can use them according to the wallpaper you choose.
+   
+8. There is a file in the Hyprland configurations called custom.conf where you can place your personal configurations. In the update, the file is empty (only with some instructions).
 
-Asimismo, comenta o elimina la línea 10 de keybindings.conf:
+9. The update script detects if Yay, Flatpak, and Snap are installed on the system (Yay must be installed for the dotfiles to work) and asks for confirmation at each step, allowing you to choose not to update items individually. The script also sends notifications about its actions, whether it's the cancellation of the process by the user or the update of items. The update module in Waybar restarts immediately after it finishes executing, resetting to zero as soon as the script execution ends.
+   
+10. Bars can appear and disappear from the screen to allow for a fullscreen experience. Just press Super + B to toggle the bar on/off.
 
-`bind = $mainMod, TAB, hyprexpo:expo, toggle # puede ser: toggle (alternar entre mostrar/ocultar), off(deshabilitar) u on(habilitar)`
+11. Pressing Super + A shows an on-screen help with all keybindings.
 
-Y con esto, ya no deberías tener activa la función hyprexpo ni la carga de plugins por Hyprland.
+12. There is a "minimize" effect with Super + S, involving a special workspace: you won’t see windows there, they will only be stored and can reappear wherever you want. This can only be done with one window at a time.
 
-**Instrucciones acerca de cómo habilitar el repositorio de plugins y hyprexpo [en este video](https://youtu.be/JLkzIY-xrjg?si=PtNIM7v-lKrw5rzc)**
+13. I have included all the necessary fonts in this repository, so you no longer need to download them. Just clone the repository and follow the Wiki steps to install.
 
+14. If you press both shift keys at the same time, it will change the keyboard layout to Latin American Spanish (useful for those with a different keyboard layout), and each bar has an indicator of the selected language next to the notification center (ESP/ENG). By default, the first layout is English.
+
+15. There's a dedicated button for a clipboard in all bars. It is a front-end for cliphist, so now you have access to a functional clipboard.
+
+16. Pressing Super + Tab you have an overview layout provided by hyprexpo. By default is ready to use in this dotfiles.
 
 ![Hyprland_2024-10-06_06 51 43](https://github.com/user-attachments/assets/bc970e03-21a4-4867-a93b-01cae57104c4)
-_Vista previa de hyprexpo_
+_This is hyprexpo_
 
-## Pasos para instalar Sebekdots
+## Steps to install Sebekdots
 
-Visita la [Wiki](https://github.com/andrewsebek/Sebekdots/wiki)
+Check the [Wiki](https://github.com/andrewsebek/Sebekdots/wiki)
 
-# Fuente "Neuropolitical"
-
-https://www.dafont.com/neuropolitical.font 
-Incluyo el archivo .zip en mi repositorio para descarga
-
-## Importante
-
-Para que el selector de wallpapers funcione, crea la carpeta "Set" en /Imágenes/Wallpapers/ (tal cual con las mayúsculas) y coloca todos tus wallpapers allí. El selector de wallpapers te los mostrará con Rofi.
