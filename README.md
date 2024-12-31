@@ -1,7 +1,11 @@
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/hyprsebek?country.x=TT&locale.x=en_US)
+
 If you like this project, please consider donate!
+
 It will really helpful for me to continue developing software
+
 Thanks ;)
+
 Sebek
 
 # Sebekdots 3.6-RC1
