@@ -77,13 +77,13 @@
                   :style "width: 100%;"
                   (button :class "previous-button"
                           :onclick "playerctl previous"
-                          :tooltip "Anterior"
+                          :tooltip "Previous"
                           (label :text ""))
                   (button :class "pause-button ${music_status == 'Playing' ? 'playing' : 'paused'}"
                           :onclick "playerctl play-pause"
-                          :tooltip "Reproducir/Pausa"
+                          :tooltip "Play/Pause"
                           "${music_status == 'Playing' ? '' : ''}")
                   (button :class "next-button"
                           :onclick "playerctl next"
-                          :tooltip "Siguiente"
+                          :tooltip "Next"
                           (label :text ""))))))))
