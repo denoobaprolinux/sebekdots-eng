@@ -6,7 +6,7 @@ It will really helpful for me to continue developing software
 
 Thanks ;)
 
-Sebek
+**Sebek**
 
 # Sebekdots 3.6-RC1
 
@@ -63,5 +63,5 @@ _This is hyprexpo_
 
 ## Steps to install Sebekdots
 
-Check the [Wiki](https://github.com/andrewsebek/Sebekdots/wiki)
+Check the [Wiki](https://github.com/denoobaprolinux/sebekdots-eng/wiki)
 
