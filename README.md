@@ -2,7 +2,7 @@
 
 If you like this project, please consider donate!
 
-It will really helpful for me to continue developing software
+It will be really helpful for me to continue developing software
 
 Thanks ;)
 
