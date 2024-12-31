@@ -1,3 +1,9 @@
+[
+  ![Donate with PayPal]
+  (https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png)
+]
+(https://paypal.me/hyprsebek?country.x=TT&locale.x=en_US)
+
 # Sebekdots 3.6-RC1
 
 ![Hyprland_2024-10-04_22 37 04](https://github.com/user-attachments/assets/e4a9b4e6-5977-4d52-8d97-0a269abfb666)
